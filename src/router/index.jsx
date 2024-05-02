@@ -4,14 +4,15 @@ import {
   Route,
   Routes as WrapperRoutes,
 } from "react-router-dom";
-import { Home, Login } from "../pages";
+import routes from "./routes";
 
 const Routes = () => {
   return (
     <BrowserRouter>
       <WrapperRoutes>
-        <Route path="/" Component={Home} />
-        <Route path="/login" Component={Login} />
+        {routes.map((item, key) => (
+          <Route key={key} path={item.path} Component={item.element} />
+        ))}
       </WrapperRoutes>
     </BrowserRouter>
   );

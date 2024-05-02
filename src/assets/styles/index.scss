@@ -13,6 +13,10 @@ body {
   border-radius: 50px;
   font-weight: bold;
   border: none;
+
+  &:hover {
+    background-color: #262f64;
+  }
 }
 
 .btn-xl {
