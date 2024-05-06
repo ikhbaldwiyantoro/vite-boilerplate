@@ -1,5 +1,5 @@
 import Form from "react-bootstrap/Form";
-import VariantsExample from "../../components/Button";
+import VariantsExample from "../../components/Button/VariantsExample";
 import Input from "../../components/Input";
 import { Stack } from "react-bootstrap";
 
@@ -7,9 +7,15 @@ function Home() {
   return (
     <Form>
       <Stack gap={3}>
-        <Input label="Email" type="email" placeholder="Email Address" />
-        <Input label="Password" type="password" placeholder="Password" />
         <VariantsExample />
+        <Input label="Email" type="email" placeholder="Email" />
+        <Input
+          label="Password"
+          type="password"
+          placeholder="Password"
+          isInvalid
+        />
+        <Input />
       </Stack>
     </Form>
   );

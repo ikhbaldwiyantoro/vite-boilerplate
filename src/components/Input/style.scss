@@ -1,0 +1,26 @@
+@import "../../assets/styles/color-variables.scss";
+
+.label {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.input-form {
+  border-radius: 10px;
+
+  &::placeholder {
+    font-size: 14px;
+    color: $placeholder;
+  }
+}
+
+.form-control.is-invalid {
+  border-width: 1.5px;
+  border-color: $red;
+}
+
+.error {
+  font-size: 13px;
+  color: $red;
+}
