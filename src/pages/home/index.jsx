@@ -1,6 +1,6 @@
 import Form from "react-bootstrap/Form";
-import VariantsExample from "../../components/Button/VariantsExample";
-import Input from "../../components/Input";
+import VariantsExample from "../../components/atoms/Button/VariantsExample";
+import Input from "../../components/atoms/Input";
 import { Stack } from "react-bootstrap";
 
 function Home() {
