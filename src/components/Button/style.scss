@@ -1,0 +1,60 @@
+@import "../../assets/styles/color-variables.scss";
+
+.btn {
+  &-primary {
+    background-color: $primary;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+
+    &:hover {
+      background-color: #262f64;
+    }
+
+    &:focus-visible {
+      background-color: $primary;
+    }
+  }
+
+  &-outline-primary {
+    border-color: $primary;
+    color: $primary;
+    border-radius: 10px;
+    font-weight: bold;
+
+    &:hover {
+      background-color: $primary;
+    }
+
+    &:active {
+      background-color: $primary;
+    }
+  }
+}
+
+.btn {
+  width: 200px;
+  padding: 8px, 24px, 8px, 24px;
+
+  &-sm {
+    height: 34px;
+    font-size: 14px;
+  }
+  &-md {
+    height: 42px;
+    font-size: 16px;
+  }
+  &-lg {
+    height: 50px;
+    font-size: 20px;
+  }
+}
+
+.btn-primary:active {
+  --bs-btn-active-bg:#262f64;
+}
+
+.btn-outline-primary:active {
+  --bs-btn-active-bg:#262f64;
+}

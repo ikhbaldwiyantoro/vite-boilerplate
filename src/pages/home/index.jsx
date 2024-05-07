@@ -9,13 +9,8 @@ function Home() {
       <Stack gap={3}>
         <VariantsExample />
         <Input label="Email" type="email" placeholder="Email" />
-        <Input
-          label="Password"
-          type="password"
-          placeholder="Password"
-          isInvalid
-        />
-        <Input />
+        <Input label="Password" type="password" placeholder="Password" />
+        <Input isInvalid />
       </Stack>
     </Form>
   );

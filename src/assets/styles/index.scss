@@ -1,30 +1,9 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 @import './color-variables.scss';
+@import '../../components/Button/style.scss';
 
 body {
   display: flex;
   justify-content: center;
   padding: 100px;
-}
-
-.btn-primary {
-  background-color: $primary;
-  color: white;
-  border-radius: 50px;
-  font-weight: bold;
-  border: none;
-
-  &:hover {
-    background-color: #262f64;
-  }
-}
-
-.btn-xl {
-  padding: .5rem 6.5rem;
-  font-size: 18px;
-}
-
-.btn-sm {
-  padding: .5rem 3.6rem;
-  font-size: 18px;
 }
