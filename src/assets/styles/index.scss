@@ -1,9 +1,8 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 @import './color-variables.scss';
 @import '../../components/atoms/Button/style.scss';
+@import '../../assets/styles/color-variables.scss';
 
 body {
-  display: flex;
-  justify-content: center;
-  padding: 100px;
+  color: $primary-text;
 }
