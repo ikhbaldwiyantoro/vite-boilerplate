@@ -1,11 +1,11 @@
 @import "../../../assets/styles/color-variables.scss";
 
 .wrapper-home {
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .welcome {
-  margin-top: 40px;
+  margin-top: 50px;
   font-size: 36px;
   color: $blue;
   font-weight: 800;
@@ -28,6 +28,10 @@
   font-weight: 400;
   line-height: 30px;
   text-align: left;
+}
+
+.desc-wrapper {
+  max-width: 540px;
 }
 
 .desc-banner {
